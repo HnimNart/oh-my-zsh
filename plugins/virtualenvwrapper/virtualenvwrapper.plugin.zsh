@@ -1,5 +1,8 @@
 virtualenvwrapper='virtualenvwrapper.sh'
 virtualenvwrapper_lazy='virtualenvwrapper_lazy.sh'
+VIRTUALENVWRAPPER_PYTHON=python3
+
+
 
 if (( $+commands[$virtualenvwrapper_lazy] )); then
   function {
